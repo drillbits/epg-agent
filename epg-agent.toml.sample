@@ -1,0 +1,17 @@
+[[source]]
+name = "tmp"
+path = "/tmp/ts"
+
+[[dest]]
+name = "es"
+type = "elasticsearch"
+[dest.database]
+host = "127.0.0.1"
+port = 9200
+
+[[dest]]
+name = "pg"
+type = "postgresql"
+[dest.database]
+host = "127.0.0.1"
+port = 5432
